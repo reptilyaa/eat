@@ -15,6 +15,7 @@
         android:layout_height="3dp"
         android:text="For the dough: 2 cups of warm water, 2 teaspoons of sugar, 1 teaspoon of active dry yeast, 3 tablespoons of olive oil, 1 teaspoon of salt, 4 cups of all-purpose flour"
         app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap,VisualLintLongText"
         tools:layout_editor_absoluteY="483dp" />
 
     <TextView
@@ -29,7 +30,8 @@
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.71" />
+        app:layout_constraintVertical_bias="0.71"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView30"
@@ -42,7 +44,8 @@
         app:layout_constraintHorizontal_bias="0.407"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.576" />
+        app:layout_constraintVertical_bias="0.576"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView29"
@@ -57,7 +60,8 @@
         app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.453"
+        tools:ignore="HardcodedText" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -69,13 +73,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView27"
         android:layout_width="93dp"
         android:layout_height="44dp"
         android:background="#FFB800"
+        android:importantForAccessibility="no"
         android:text="CWH"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -86,7 +92,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -98,7 +105,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/babababa" />
+        app:srcCompat="@drawable/babababa"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView47"
@@ -111,7 +119,8 @@
         app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.878" />
+        app:layout_constraintVertical_bias="0.878"
+        tools:ignore="HardcodedText" />
 
 
     <ImageView
@@ -120,7 +129,7 @@
         android:padding="20dp"
         android:src="@drawable/home"
         android:tint="#0B0909"
-        tools:ignore="UseAppTint"
+        tools:ignore="ContentDescription,MissingConstraints,UseAppTint"
         tools:layout_editor_absoluteX="53dp"
         tools:layout_editor_absoluteY="657dp" />
 
@@ -131,7 +140,7 @@
             android:src="@drawable/profile"
             tools:layout_editor_absoluteX="197dp"
             tools:layout_editor_absoluteY="657dp"
-            />
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -140,7 +149,8 @@
         android:src="@drawable/like"
 
         tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="657dp" />
+        tools:layout_editor_absoluteY="657dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -148,6 +158,7 @@
         android:padding="20dp"
         android:src="@drawable/book"
         android:tint="#FFB800"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,UseAppTint"
         tools:layout_editor_absoluteX="125dp"
         tools:layout_editor_absoluteY="657dp" />
 

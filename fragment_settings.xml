@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:text="For the dough: 2 cups of warm water, 2 teaspoons of sugar, 1 teaspoon of active dry yeast, 3 tablespoons of olive oil, 1 teaspoon of salt, 4 cups of all-purpose flour"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck,VisualLintOverlap,VisualLintLongText"
+            tools:layout_editor_absoluteY="483dp" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingredients:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.71"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="384dp"
+            android:layout_height="115dp"
+            android:fontFamily="@font/fonts"
+            android:text="Pizza -Margarita- is probably the most popular pizza in the world, in this video I decided to share a classic recipe for this pizza. Previously, I laid out a recipe for making dough and sauce for pizza for those who want to cook pizza with their own filling. All ingredients are listed for two 30 cm diameter pizzas."
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.576"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Margarita"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.453"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:contentDescription="Pizza image"
+            android:src="@drawable/pizza"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.163"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="93dp"
+            android:layout_height="44dp"
+            android:background="#FFB800"
+            android:importantForAccessibility="no"
+            android:text="CWH"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="46dp"
+            android:layout_height="41dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.961"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            app:srcCompat="@drawable/babababa"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="351dp"
+            android:layout_height="120dp"
+            android:text="Wheat flour / Flour - 250 g \nYeast (fresh) - 3g  \nWater (cold) - 130 ml \nOlive oil (30 ml. In dough and 25 ml. In sauce) - 55 ml Salt (1 tsp in the dough and 1 tsp in the sauce) - 2 tsp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.878"
+            tools:ignore="HardcodedText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

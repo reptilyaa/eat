@@ -21,7 +21,8 @@
         app:layout_constraintHorizontal_bias="0.436"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.84" />
+        app:layout_constraintVertical_bias="0.84"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
 
     <TextView
         android:id="@+id/textView20"
@@ -36,7 +37,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.203"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -48,7 +50,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.591"
-        app:srcCompat="@drawable/line_1" />
+        app:srcCompat="@drawable/line_1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -60,7 +63,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.59"
-        app:srcCompat="@drawable/line_1" />
+        app:srcCompat="@drawable/line_1"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView19"
@@ -75,7 +79,8 @@
         app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.59"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -83,7 +88,8 @@
         android:layout_height="31dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/apple_black_logo_1" />
+        app:srcCompat="@drawable/apple_black_logo_1"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView14"
@@ -104,7 +110,8 @@
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.715" />
+        app:layout_constraintVertical_bias="0.715"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView7"
@@ -121,7 +128,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView22"
@@ -134,7 +142,8 @@
         app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.918"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView21"
@@ -147,7 +156,8 @@
         app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.324" />
+        app:layout_constraintVertical_bias="0.324"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView24"
@@ -160,7 +170,8 @@
         app:layout_constraintHorizontal_bias="0.385"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintVertical_bias="0.327"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView25"
@@ -173,7 +184,8 @@
         app:layout_constraintHorizontal_bias="0.783"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintVertical_bias="0.327"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView26"
@@ -186,7 +198,8 @@
         app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.918"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button4"
@@ -204,6 +217,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.47"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

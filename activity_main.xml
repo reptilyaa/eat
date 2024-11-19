@@ -24,7 +24,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintVertical_bias="0.152"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -37,13 +38,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.904"
-        app:srcCompat="@drawable/logo_loading" />
+        app:srcCompat="@drawable/logo_loading"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="240dp"
         android:layout_height="148dp"
-        android:fontFamily="serif"
+        android:fontFamily="casual"
         android:text=" Cook with Heart"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -54,7 +56,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
+        app:layout_constraintVertical_bias="0.481"
+        tools:ignore="HardcodedText,TextSizeCheck,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,6 +72,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.711" />
+        app:layout_constraintVertical_bias="0.711"
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

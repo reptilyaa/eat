@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity6">
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageView11"
@@ -274,43 +279,8 @@
         app:layout_constraintVertical_bias="0.953"
         app:srcCompat="@drawable/like1"
         tools:ignore="ContentDescription,ImageContrastCheck" />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:src="@drawable/home"
-        android:tint="#0B0909"
-        tools:ignore="ContentDescription,MissingConstraints,UseAppTint"
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="657dp" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:src="@drawable/profile"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="657dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:src="@drawable/like"
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="657dp"
-        tools:ignore="ContentDescription,MissingConstraints" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:src="@drawable/book"
-        android:tint="#FFB800"
-        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints,UseAppTint"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="657dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
